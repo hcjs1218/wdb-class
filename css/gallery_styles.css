@@ -1,0 +1,123 @@
+
+body {
+    background-color: black; 
+    font-family: Trattatello, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    max-width: 1600px;
+    min-width: 600px;
+    
+}
+
+.gallery figure {
+    color: white;
+    float: left;
+    height: 175px;
+    margin: 30px;
+    max-width: 600px;
+    padding-left: 120px;
+    text-align:center;
+}
+
+header {
+    background-color: #E6E6E6;
+}
+
+
+nav {
+    background-color: #000000;
+    list-style-type: none; 
+    text-align: center; 
+
+    /*
+    margin-top: -25px;
+    margin-bottom: -25px;
+*/
+}
+
+nav li {
+    display: inline-block;
+    margin: .5em 0;
+    padding: 15px 15px 20px 20px
+
+}
+
+
+.nav-links:link {
+    color: #FFF;
+    text-decoration: none;
+
+}
+
+.nav-links:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: whitesmoke;
+}
+
+.current-page {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+article {
+    background-color: #000000;
+    padding-bottom: 20px;
+}
+
+.reference-image {
+    left: 150px;
+    padding: 10px 10px 15px 0;
+    position: relative;
+}
+
+h1 {
+    background-attachment: scroll; 
+    background-color: #000000;
+    background-image: url(../img/gallery_header.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-family: "Trattatello", sans-serif;
+    font-size: 1.8875em;
+    padding: 600px 20px 50px 50px;
+}
+
+h2 {
+    background-color: #000000;
+    color: #FFF;
+    font-family: "Trattatello", sans-serif;
+    font-size: 1.75em;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+h3 {
+    background-color: #000000;
+    color: #FFF;
+    font-family: "Trattatello", sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+
+}
+p {
+    color: #ffffff;
+    font-size: .9375em;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+footer {
+    bottom: 0;
+    font-size: .7375em; 
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%
+}
